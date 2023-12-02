@@ -1,20 +1,20 @@
-import './App.css';
-import AnimationControls from './components/AnimationControls';
-import BasicOfMotion from './components/BasicOfMotion';
-import Gestures from './components/Gestures';
-import ScrollAnimations from './components/ScrollAnimations';
-import ViewBasedAnimations from './components/ViewBasedAnimations';
+import "./App.css";
+import BasicOfMotion from "./components/BasicOfMotion";
+import Gestures from "./components/Gestures";
+import AnimationControls from "./components/AnimationControls";
+import ViewBasedAnimations from "./components/ViewBasedAnimations";
+import ScrollAnimations from "./components/ScrollAnimations";
 
 function App() {
   return (
     <div>
-      <BasicOfMotion />
+      {/* <BasicOfMotion /> */}
       <Gestures />
-      <AnimationControls />
-      <ViewBasedAnimations />
-      <ScrollAnimations />
+      {/* <AnimationControls /> */}
+      {/* <ViewBasedAnimations /> */}
+      {/* <ScrollAnimations /> */}
     </div>
-  )
+  );
 }
 
 export default App;
